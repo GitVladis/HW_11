@@ -26,9 +26,11 @@ a {
 /* Колонки */
 
 .row {
+    display: flex;
 
 }
 .col {
+    flex: auto;
 
 }
 
@@ -36,10 +38,31 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
 }
 
 .button {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: blue;
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    flex: auto;
 
 }
 
@@ -48,7 +71,20 @@ a {
 /* Login*/
 
 .input-login {
-
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
 }
 
@@ -56,18 +92,37 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .genre-second {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: cornsilk;
+    border-radius: 5px;
+    width: 80%;
 
 }
 
 .genre-third {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: azure;
+    border-radius: 5px;
+    width: 60%;
 
 }
 
 .genre-fourth {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width: 40%;
 
 }
 
