@@ -66,6 +66,15 @@ a {
 
 }
 
+.button-link {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: #CBEDFF;
+    border-radius: 5px;
+    width: 30%;
+
+}
+
 /* Потом специальные правила по страничкам */
 
 /* Login*/
@@ -133,7 +142,8 @@ a {
 /* Страничка популярного */
 
 .cover {
-
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 /* Страничка подписки  */
